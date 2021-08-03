@@ -1,0 +1,9 @@
+{
+  "name": "chrome-plugin-template",
+  "version": "1.0.0",
+  "description": "it is chrome-plugin-cli's  template",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

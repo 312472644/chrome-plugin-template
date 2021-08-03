@@ -1,0 +1,25 @@
+{
+  "name": "chrome-plugin-template",
+  "description": "chrome-plugin-template project",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "cookies",
+    "storage",
+    "<all_urls>",
+    "*://*/*",
+    "contextMenus",
+    "notifications"
+  ],
+  "icons": {
+    "16": "./assets/images/plugin_outlined_16.png",
+    "48": "./assets/images/plugin_outlined_48.png",
+    "128": "./assets/images/plugin_outlined_128.png"
+  },
+  "browser_action": {
+    "default_title": "chrome-plugin-template",
+    "default_popup": "./pages/popup/index.html"
+  }
+}
