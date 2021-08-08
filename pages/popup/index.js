@@ -1,5 +1,5 @@
-const testB = (a, b) => {
-  return a + b;
+const popup = () => { 
+  console.log('popup');
 }
 
-console.log(testB(1, 3));
+popup();
