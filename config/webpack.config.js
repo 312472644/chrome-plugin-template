@@ -55,7 +55,7 @@ module.exports = {
           chunks: 'all',
           minChunks: 2
         }
-      },
-    },
+      }
+    }
   }
 };

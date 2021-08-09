@@ -56,3 +56,6 @@ import './lib/jquery.js';
 
 2、webpack配置目前是配置了css、js(es6转化es5)、代码压缩、tree shaking、公共资源提取(splitChunks)打包。
 3、执行npm run build命令后，会生成一个dist文件夹，将这个文件添加到谷歌扩展程序即可使用。
+
+4、lib文件有个chrome_utils.min.js，该js文件是封装了一些chrome插件的内对象以及方法，使用方法请见：https://github.com/312472644/chrome-utils-tools#readme
+
